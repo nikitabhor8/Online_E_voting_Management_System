@@ -73,11 +73,12 @@ Home → Register → Login → View Candidates → Cast Vote → Vote Stored in
 File Structure Screenshot 
    
 ## Home Page
+## Home Page
 
-![Home Page](images/Home.png)
+![Home Page](Home.png)
   
  ## Registration Page 
-![Registration Page](images/Registration Page.jpg).
+![Registration Page](Registration Page.jpg).
   
 Login Page 
   
