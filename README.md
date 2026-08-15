@@ -76,8 +76,8 @@ File Structure Screenshot
 
 ![Home Page](images/Home.png)
   
-Registration Page 
-  ![Registration Page](images/Registration Page.png).
+ ## Registration Page 
+![Registration Page](images/Registration Page.jpg).
   
 Login Page 
   
