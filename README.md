@@ -15,11 +15,6 @@ Software And Tools Required:
 •	Eclipse IDE 
 •	MySQL 
  
- 
- 
- 
- 
- 
 ➢ Technical Summary 
 Project Description: 
 The E-Voting Management System is a web application that allows users to register, log in, and cast votes securely. Admin can manage candidates and voting data is stored in MySQL. 
@@ -77,12 +72,12 @@ Project Workflow
 Home → Register → Login → View Candidates → Cast Vote → Vote Stored in MySQL → Result Display 
 File Structure Screenshot 
    
-Home Page 
+## Home Page
+
+![Home Page](images/Home.png)
   
 Registration Page 
-  
-  
- 
+  ![Registration Page](images/Registration Page.png).
   
 Login Page 
   
