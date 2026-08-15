@@ -76,10 +76,11 @@ File Structure Screenshot
 ![Home Page](Home.png)
   
  ## Registration Page 
-![Registration Page](Registration Page.jpg).
-  
-Login Page 
-  
+
+ 
+## Login Page
+
+![Login Page](Login_Page.png)  
    
 Voting Page 
   
