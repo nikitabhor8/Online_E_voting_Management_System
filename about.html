@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="~{base::layout(~{::section})}">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+</head>
+<body>
+	<section class = "center">
+	
+
+<h1>About</h1>
+		<div th:if=${session.msg}>
+			<h3 th:text="${session.msg}" style="color:red"></h3>
+   		
+   		<div th:text="${@sessionUtilityBean.removeVerificationMessageFromSession()}"></div>
+   		</div>
+   		
+<div class="center">
+    <h1>About Our Voting System</h1>
+    <p>Welcome to our secure and transparent online voting platform.</p>
+    <p>This application is designed to simplify the voting process, allowing users to cast their votes securely from anywhere. It ensures accurate real-time counting and provides an easy-to-use interface for both voters and administrators.</p>
+    
+    <div class="features-section" style="text-align: left; display: inline-block; margin-top: 20px;">
+        <h3>Key Features:</h3>
+        <ul>
+            <li><strong>Secure Authentication:</strong> Safe registration and login for all users.</li>
+            <li><strong>Real-time Results:</strong> Instant updates on vote counts for administrators.</li>
+            <li><strong>User-Friendly:</strong> A simple, clean, and responsive design.</li>
+            <li><strong>Transparent Process:</strong> Reliable data management for fair elections.</li>
+        </ul>
+    </div>
+</div>
+
+	<br>	
+	</section>
+</body>
+</html>
